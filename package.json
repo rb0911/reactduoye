@@ -1,0 +1,55 @@
+{
+  "name": "reactduoye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "set NODE_ENV=development && webpack --config build/webpack.base.js",
+    "serve": "webpack-dev-server --config build/webpack.serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rb0911/reactduoye.git"
+  },
+  "author": "robin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rb0911/reactduoye/issues"
+  },
+  "homepage": "https://github.com/rb0911/reactduoye#readme",
+  "dependencies": {
+    "antd": "^4.15.5",
+    "axios": "^0.18.0",
+    "axios-observable": "^1.1.3",
+    "css-loader": "^5.2.4",
+    "es6-promise": "^4.2.5",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "moment": "^2.23.0",
+    "node-sass": "^6.0.0",
+    "qs": "^6.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^4.1.3"
+  }
+}
