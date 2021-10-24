@@ -48,3 +48,5 @@ const config = webpackMerge(baseConfig, {
         )
     ]
 })
+
+module.exports = config
